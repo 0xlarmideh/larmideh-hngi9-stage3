@@ -1,6 +1,6 @@
 import data from "./nftdata"
 import { useState } from "react"}
-const NftCards = () => {
+const NftTrunc = () => {
   const [nftData] = useState(data.src)
   const nftDataTrunc = nftData.slice(4,12)
   const nftMapped = nftDataTrunc.map((nft) => {
@@ -21,10 +21,10 @@ const NftCards = () => {
   })
   return (
     <section className="nft-home-cards">
-    <div className="nft-links"></div>
+      <h3>Inspiration for your next adventure</h3>
       <div className="nft-cards-container">{nftMapped}</div>
     </section>
   )
 }
 
-export default NftCards
+export default NftTrunc
