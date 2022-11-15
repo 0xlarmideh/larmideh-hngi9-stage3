@@ -8,6 +8,9 @@
   padding: none;
   box-sizing: border-box;
   font-family: 'Red Rose', cursive;
+}
+
+body {
   color: #434343;
 }
 
@@ -27,6 +30,10 @@
   gap: 30px;
 }
 
+.links a {
+  color: #434343;
+}
+
 a {
   text-decoration: none;
   font-size: 16px;
@@ -34,7 +41,7 @@ a {
 }
 
 
-#connect-wallet {
+.connect-wallet {
   background: #A02279;
   border-radius: 10px;
   color: white;
@@ -181,11 +188,19 @@ a {
   font-siz  e: 18px;
   line-height: 35px;
   font-weight: 400;
+  margin-bottom: 50px;
 }
 
 .metabnb-head {
   font-size: 54px;
-  font-weight
+}
+
+#learn-more {
+  background: white;
+  font-size: 14px;
+  font-weight: 400;
+  color: #A02279;
+  padding: 15px 30px;
 }
 
 .metabnb-img { 
@@ -193,7 +208,50 @@ a {
 }
 
 .footer-grid {
-  background: black;
+  background: #1D1D1E;
   padding: 0 100px;
   color: white;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-contents: space-between;
+  padding: 70px 100px;
+}
+
+.footer-grid-item {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  gap: 15px;
+  justify-contents: center;
+}
+
+.footer-link-head {
+  font-size: 18px;
+  margin-bottom: 24px;
+}
+
+.footer-grid-item a {
+  text-decoration: none;
+  color: #F1F3F9;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.footer-logos-section {
+  display: flex;
+  flex-direction: column;
+  gap:60px;
+}
+.metabnb-logo {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-logo {
+  height: 24px;
+}
+.social-logos {
+  display: flex;
+  gap: 20px;
+  font-size: 14px;
 }

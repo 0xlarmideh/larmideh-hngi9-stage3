@@ -8,9 +8,16 @@ const Footer = () => {
   const aboutMapped = about.map((item) => <a href="#" key={item}>{item}</a>)
   return (
     <footer className="footer-grid">
-      <div className="footer-grid-item">
-        <div className="metabnb-logo">Metabnb</div>
-        <div className="social-logos"></div>
+      <div className="footer-grid-item footer-logos-section">
+        <div className="metabnb-logo">
+          <img src="./src/assets/footer1.png" className="footer-logo"></img>
+          <img src="./src/assets/footer2.png" className="footer-logo"></img>
+        </div>
+        <div className="social-logos">
+          <i className="fa-brands fa-facebook-f"></i>
+          <i className="fa-brands fa-instagram"></i>
+          <i className="fa-brands fa-twitter"></i>
+        </div>
         <div>© 2022 Metabnb</div>
       </div>
       <div className="footer-grid-item"><div className="footer-link-head">Community</div>{communityMapped}</div>

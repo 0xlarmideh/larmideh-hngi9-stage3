@@ -13,7 +13,7 @@ const Navbar = () => {
         <a href="#">Home</a>
         <a href="#">Community</a>
       </div>
-      <a href="#" id="connect-wallet">Connect wallet</a>
+      <a href="#" className="connect-wallet">Connect wallet</a>
     </nav>
   )
 }
