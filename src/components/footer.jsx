@@ -3,9 +3,9 @@ const Footer = () => {
   const places = ["Castle", "Farms", "Beach", "Learn more"];
   const about = ["Roadmap", "Creators", "Career", "Contact us"];
 
-  const communityMapped = community.map((item) => <a href="#">{item}</a>)
-  const placesMapped = places.map((item) => <a href="#">{item}</a>)
-  const aboutMapped = about.map((item) => <a href="#">{item}</a>)
+  const communityMapped = community.map((item) => <a href="#" key={item}>{item}</a>)
+  const placesMapped = places.map((item) => <a href="#" key={item}>{item}</a>)
+  const aboutMapped = about.map((item) => <a href="#" key={item}>{item}</a>)
   return (
     <footer className="footer-grid">
       <div className="footer-grid-item">

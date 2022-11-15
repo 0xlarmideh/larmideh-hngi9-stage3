@@ -1,5 +1,111 @@
-main {
+/* main {
   text-align: center;
   vertical-align: center;
   line-height: 100vh
+} */
+* {
+  margin: none;
+  padding: none;
+  box-sizing: border-box;
+  font-family: 'Red Rose', cursive;
+  color: #434343;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 80px;
+}
+
+.navbar div img {
+  height: 32px;
+}
+
+.links {
+  display: flex;
+  gap: 30px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+
+#connect-wallet {
+  background: #A02279;
+  border-radius: 10px;
+  color: white;
+  padding: 15px;
+}
+
+.header-container {
+  margin: 0 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+}
+
+.grid-item h1 {
+  font-weight: 500;
+  font-size: 56px;
+  line-height: 140%;
+  letter-spacing: -2px;
+}
+
+.pink {
+  color: #A02279;
+}
+
+.grid-item p {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.form-container {
+  display: flex;
+}
+
+.form-container input {
+  outline: none;
+  border: .11px solid #9c9c9c;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.form-container button {
+  background: #A02279;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 0px 10px 10px 0px;
+  padding: 0px 40px;
+}
+
+.grid-item2 {
+  display: flex;
+  gap: 10px;
+}
+
+.header-imgs-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.header-imgs-2 img {
+  width: 234px;
+}
+
+.header-imgs-2a {
+  margin-top: 70px;
+}
+
+.backers-container {
+  background: #A02279;
+  padding: 15px 100px;
+  display: flex;
+  justify-content: space-between;
 }
