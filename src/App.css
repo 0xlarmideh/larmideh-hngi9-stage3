@@ -373,6 +373,10 @@ a {
     display: none;
   }
 
+  .connect-wallet {
+    margin-top: 10px;
+  }
+
   .links {
     flex-direction: column;
   }
