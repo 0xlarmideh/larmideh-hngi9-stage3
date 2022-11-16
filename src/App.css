@@ -27,6 +27,10 @@ body {
   max-height: 32px;
 }
 
+.navbar-menu {
+  display: none;
+}
+
 .links {
   display: flex;
   gap: 30px;
@@ -352,8 +356,44 @@ a {
 @media all and (max-width: 767px) { 
   .navbar {
     margin: 30px 20px;
-    display: none;
+    display: block;
 }
+
+  .navbar1-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.navbar-menu {
+  display: block;
+}
+
+  .links, .connect-wallet {
+    display: none;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .links a{
+    display: block;
+    font-size: 18px;
+    padding: 8px 0;
+    border-bottom: 1px solid #CFD8DC;
+  }
+
+  .links .nav-community {
+    border-bottom: none;
+  }
+
+  .wallet-modal {
+    width: 90%;
+    margin: 20px auto;
+    
+  }
 
   .navbar div img {
   max-height: 11px;
@@ -400,7 +440,7 @@ a {
   .metabnb-copy-container {
   display: grid;
   grid-template-columns: 1fr;
-  padding: 50px 40px 80px 40px;
+  padding: 50px 40px 40px 40px;
 }
 
   .metabnb-img { 
