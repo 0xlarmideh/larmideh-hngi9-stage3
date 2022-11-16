@@ -4,8 +4,8 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div>
-        <img src="./src/assets/Vector-1.png"></img>
-        <img src="./src/assets/Vector.png"></img>
+        <img src="/assets/Vector-1.png"></img>
+        <img src="/assets/Vector.png"></img>
       </div>
       <div className="links">
         <Link to="/">Home</Link>

@@ -7,7 +7,7 @@ const MetaBnbCopy = () => {
         <a className="connect-wallet" id="learn-more" href="#">Learn more</a>
       </div>
       <div className="meta-grid-item-b">
-        <img className="metabnb-img " src="./src/assets/meta-img.png"></img>
+        <img className="metabnb-img " src="/assets/meta-img.png"></img>
       </div>
     </section>
   )

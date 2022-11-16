@@ -11,7 +11,7 @@ const Cards = (props) => {
           <p>2345km away</p>
           <p>available for 2weeks stay</p>
         </div>
-        <img src="./src/assets/rating.png"></img>
+        <img src="/assets/rating.png"></img>
       </div>
     </div>
   )

@@ -1,7 +1,7 @@
 import Layout from "./layout"
 
 const NftCards = () => {
-  const nftData = ["./src/assets/1.jpg", "./src/assets/2.jpg", "./src/assets/3.jpg", "./src/assets/4.jpg", "./src/assets/5.jpg", "./src/assets/6.jpg", "./src/assets/7.jpg", "./src/assets/8.jpg", "./src/assets/9.jpg", "./src/assets/10.jpg", "./src/assets/11.jpg", "./src/assets/12.jpg", "./src/assets/13.jpg", "./src/assets/14.jpg", "./src/assets/15.jpg", "./src/assets/16.jpg"]
+  const nftData = ["/assets/1.jpg", "/assets/2.jpg", "/assets/3.jpg", "/assets/4.jpg", "/assets/5.jpg", "/assets/6.jpg", "/assets/7.jpg", "/assets/8.jpg", "/assets/9.jpg", "/assets/10.jpg", "/assets/11.jpg", "/assets/12.jpg", "/assets/13.jpg", "/assets/14.jpg", "/assets/15.jpg", "/assets/16.jpg"]
   const nftMapped = nftData.map((nft) => {
     return <div className="card-container">
       <img className="nft-img" src={nft}></img>
@@ -14,7 +14,7 @@ const NftCards = () => {
           <p>2345km away</p>
           <p>available for 2weeks stay</p>
         </div>
-        <img src="./src/assets/rating.png"></img>
+        <img src="/assets/rating.png"></img>
       </div>
     </div>
   })

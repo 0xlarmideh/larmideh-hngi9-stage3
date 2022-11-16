@@ -296,8 +296,16 @@ a {
   }
 
   .header-imgs-2 img {
-    width: 150px;
+    width: 90%;
 }
+
+  .form-container {
+    margin: 30px 0;
+  }
+
+  .grid-item2 {
+    justify-content: center;
+  }
 
   .grid-item h1 {
   font-size: 48px;

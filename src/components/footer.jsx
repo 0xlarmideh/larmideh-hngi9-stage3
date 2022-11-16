@@ -10,8 +10,8 @@ const Footer = () => {
     <footer className="footer-grid">
       <div className="footer-grid-item footer-logos-section">
         <div className="metabnb-logo">
-          <img src="./src/assets/footer1.png" className="footer-logo"></img>
-          <img src="./src/assets/footer2.png" className="footer-logo"></img>
+          <img src="/assets/footer1.png" className="footer-logo"></img>
+          <img src="/assets/footer2.png" className="footer-logo"></img>
         </div>
         <div className="social-logos">
           <i className="fa-brands fa-facebook-f"></i>
