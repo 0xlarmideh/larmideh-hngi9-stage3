@@ -4,16 +4,16 @@
   line-height: 100vh
 } */
 * {
-  margin: none;
-  padding: none;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
   font-family: 'Red Rose', cursive;
 }
 
 body {
   color: #434343;
-  margin: none;
-  padding: none;
+  margin: 0;
+  padding: 0;
 }
 
 .navbar {
