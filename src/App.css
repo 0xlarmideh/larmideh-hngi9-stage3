@@ -365,16 +365,15 @@ a {
     align-items: center;
   }
 
-  .navbar-menu {
+.navbar-menu {
   display: block;
-  }
+}
 
-  .connect-wallet {
+  .links, .connect-wallet {
     display: none;
   }
 
   .links {
-    display: flex;
     flex-direction: column;
   }
 
@@ -383,10 +382,6 @@ a {
     font-size: 18px;
     padding: 8px 0;
     border-bottom: 1px solid #CFD8DC;
-  }
-
-  .navbar a {
-    display: none;
   }
 
   .links .nav-community {
