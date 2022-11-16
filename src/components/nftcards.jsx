@@ -22,14 +22,14 @@ const NftCards = () => {
     <Layout>
       <section className="nft-home-cards">
       <div className="nft-links">
-        <a href="#" className="nft-link">Restaurant</a>
-        <a href="#" className="nft-link">Cottage</a>
-        <a href="#" className="nft-link">Castle</a>
-        <a href="#" className="nft-link">Fantast City</a>
-        <a href="#" className="nft-link">Beach</a>
-        <a href="#" className="nft-link">Cabins</a>
-        <a href="#" className="nft-link">Off-grid</a>
-        <a href="#" className="nft-link">Farm</a>
+          <div><a href="#" className="nft-link">Restaurant</a></div>
+          <div><a href="#" className="nft-link">Cottage</a></div>
+          <div><a href="#" className="nft-link">Castle</a></div>
+          <div><a href="#" className="nft-link">Fantast City</a></div>
+          <div><a href="#" className="nft-link">Beach</a></div>
+          <div><a href="#" className="nft-link">Cabins</a></div>
+          <div><a href="#" className="nft-link">Off-grid</a></div>
+          <div><a href="#" className="nft-link">Farm</a></div>
         <div className="filter">
           <input className="location-input" placeholder="Location"></input>
         </div>
