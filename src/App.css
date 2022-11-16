@@ -285,6 +285,69 @@ a {
   border: 0.4px solid #9c9c9c;
 }
 
+
+
+.wallet-modal {
+  width: 600px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  border-radius: 15px;
+  background: white;
+}
+
+.modal-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.connect-wallet-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+    border-bottom: 1px solid #CFD8DC;
+}
+
+.connect-wallet-container h5 {
+  font-weight: 600;
+  font-size: 20px;
+  color: #333333;
+}
+
+.modal-container p {
+  padding: 0 20px;
+}
+
+.wallet-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background: #F8F9FA;
+  border-radius: 10px;
+  margin: 0 20px;
+}
+
+.wallet-container div {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.wallet-container div img{
+  width: 30px;
+}
+
+.fa-chevron-right {
+  color: #959DA6;
+}
+
+
 /* Portrait and Landscape.. Small Phones */
 @media all and (max-width: 767px) { 
   .navbar {

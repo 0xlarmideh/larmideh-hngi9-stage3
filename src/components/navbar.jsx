@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
 
-const Navbar = () => {
+const Navbar = (props) => {
+  
   return (
     <nav className="navbar">
       <div>
@@ -13,7 +14,7 @@ const Navbar = () => {
         <Link to="/nfts">NFTs</Link>
         <a href="#">Community</a>
       </div>
-      <a href="#" className="connect-wallet">Connect wallet</a>
+      <a href="#" className="connect-wallet" onClick={props.onClick} >Connect wallet</a>
     </nav>
   )
 }

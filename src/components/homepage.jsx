@@ -7,7 +7,7 @@ import Layout from "./layout"
 const Homepage = () => {
   return (
     <div>
-      <Layout>
+      <Layout >
         <Header />
         <Backers />
         <NftTrunc />

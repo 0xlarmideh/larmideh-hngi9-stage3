@@ -3,13 +3,17 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Homepage from "./components/homepage"
 import NftCards from "./components/nftcards"
 
+
+
 export default function App() {
   return (
+    <div>
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Homepage />} />
             <Route path="/nfts" element={<NftCards/>} />
           </Routes>
         </BrowserRouter>
+    </div>
   )
 }
