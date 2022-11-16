@@ -1,7 +1,7 @@
 const Header = () => {
   return (
     <header className="header-container">
-      <div className="grid-item">
+      <div className="grid-item grid-item1">
         <h1>Rent a <span className="pink">Place</span> away from <span className="pink">Home</span> in the <span className="pink">Metaverse</span></h1> 
         <p>we provide you access to luxury and affordable houses in the metaverse, get a chance to turn your imagination to reality at your comfort zone</p>
         <div className="form-container">
