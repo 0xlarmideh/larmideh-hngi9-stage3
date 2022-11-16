@@ -9,15 +9,17 @@ const Navbar = (props) => {
           <img src="/assets/Vector-1.png"></img>
           <img src="/assets/Vector.png"></img>
         </div>
-        <div className="navbar-menu"><i className="fa-solid fa-bars" onClick={props.onOpen} ></i></div>
-      </div>
-        <div className="links">
-          <Link to="/">Home</Link>
-          <a href="#">Place to stay</a>
-          <Link to="/nfts">NFTs</Link>
-          <a href="#" className="nav-community">Community</a>
+        <div className="navbar-menu">
+          <i className="fa-solid fa-bars nav-btn" onClick={props.onOpen} ></i>
         </div>
-        <a href="#" className="connect-wallet" onClick={props.onClick} >Connect wallet</a>
+      </div>
+      <div className="links">
+        <Link className="link" to="/">Home</Link>
+        <a className="link" href="#">Place to stay</a>
+        <Link className="link" to="/nfts">NFTs</Link>
+        <a href="#" className=" link nav-community">Community</a>
+      </div>
+      <a href="#" className="connect-wallet" onClick={props.onClick} >Connect wallet</a>
     </nav>
   )
 }
