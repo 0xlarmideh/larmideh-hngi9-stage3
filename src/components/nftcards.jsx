@@ -16,6 +16,7 @@ const NftCards = () => {
         </div>
         <img src="/assets/rating.png"></img>
       </div>
+      <i className="fa-solid fa-heart cherished"></i>
     </div>
   })
   return (

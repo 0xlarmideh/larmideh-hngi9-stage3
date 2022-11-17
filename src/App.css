@@ -149,6 +149,8 @@ a {
   padding: 15px;
   border-radius: 10px;
   width:100%;
+  position: relative;
+  
 }
 
 .nft-home-cards {
@@ -166,6 +168,17 @@ a {
 .nft-img {
   width: 100%;
   border-radius: 10px;
+}
+
+.cherished {
+  position: absolute;
+  color: white;
+  left: 85%;
+  top: 25px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 18px;
+  
 }
 
 .nft-text {
@@ -439,6 +452,10 @@ a {
   margin: 0 40px;
   gap: 30px;
   }
+
+   .cherished {
+  left: 84%;
+}
   
   .metabnb-copy-container {
   display: grid;
@@ -549,7 +566,6 @@ a {
   gap: 30px;
   }
 
-  
   .metabnb-copy-container {
   display: grid;
   grid-template-columns: 1fr 1.0fr;
